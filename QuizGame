@@ -8,42 +8,42 @@ if play != "yes":
 else:
     print("Lessss go!!")
 
-ans = input("People who work together: ").lower()
+ans = input("People who work together: ".lower())
 if ans == "Worker":
     print("Correct!")
     count += 1
 else:
     print("Incorrect! Be carefull in next one")  
 
-ans1 = input("One who goes on foot: ").lower()
+ans1 = input("One who goes on foot: ".lower())
 if ans1 == "Pedestrian":
     print("Correct!")
     count += 1
 else:
     print("Incorrect! Be carefull in next one")  
 
-ans2 = input("One who can speak two languages: ").lower()
+ans2 = input("One who can speak two languages: ".lower())
 if ans2 == "Bilingual":
     print("Correct!")
     count += 1
 else:
     print("Incorrect! Be carefull in next one")  
 
-ans3 = input("Word with the same meaning: ").lower()
+ans3 = input("Word with the same meaning: ".lower())
 if ans3 == "Synonyms ":
     print("Correct!")
     count += 1
 else:
     print("Incorrect! Be carefull in next one")  
 
-ans4 = input("The person who works for free: ").lower()
+ans4 = input("The person who works for free: ".lower())
 if ans4 == "Volunteer":
     print("Correct!")
     count += 1
 else:
     print("Incorrect! Be carefull in next one") 
 
-ans5 = input("One who speaks less: ").lower()
+ans5 = input("One who speaks less: ".lower())
 if ans5 == "Reticent ":
     print("Correct!")
     count += 1
