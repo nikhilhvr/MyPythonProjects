@@ -28,9 +28,10 @@ while True:
         print("you got it!!")
         quit()
     elif guess > num:
-        print("you are above the random number")
+        print("you were above the random number")
 
     else: 
-        print("you are below the random number")    
+        print("you were below the random number")    
 
-    print("you guessed", count, "times")   
+print("you guessed", count, "times")        
+
