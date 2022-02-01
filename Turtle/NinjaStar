@@ -1,5 +1,6 @@
 from turtle import*
-speed(0)
+# Speed can be Changed by increasing and de-creasing values in speed("_")
+speed(15)
 bgcolor("black")
 pencolor("steelblue")
 
@@ -11,4 +12,4 @@ for i in range(140):
     forward(i)
 
 hideturtle()
-done()
+turtle.done()
